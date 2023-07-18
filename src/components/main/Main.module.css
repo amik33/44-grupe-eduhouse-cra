@@ -1,0 +1,16 @@
+.header {
+    grid-area: main;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background-color: azure;
+}
+
+input {
+ border-radius: 1rem;
+ line-height: 1.5rem;
+}
+
+input::placeholder {
+    color: black;
+}
