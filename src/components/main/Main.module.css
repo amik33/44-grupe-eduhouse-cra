@@ -3,14 +3,27 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem 3rem;
-    background-color: azure;
+    background-color: #FEFDFB;
 }
-
 input {
- border-radius: 1rem;
- line-height: 1.5rem;
-}
+    border-radius: 1rem;
+    line-height: 1.5rem;
+    padding: 0 2rem;
 
-input::placeholder {
+}
+.input::placeholder {
     color: black;
+}
+.right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.cap {
+
+}
+.left {
+display: flex;
+align-items: center;
+gap: 2rem;
 }
