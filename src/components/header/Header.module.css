@@ -1,0 +1,29 @@
+.header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background-color: #FEFDFB;
+}
+input {
+    border-radius: 1rem;
+    line-height: 1.5rem;
+    padding: 0 2rem;
+
+}
+.input::placeholder {
+    color: black;
+}
+.right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.cap {
+
+}
+.left {
+display: flex;
+align-items: center;
+gap: 2rem;
+}

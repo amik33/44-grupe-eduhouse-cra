@@ -1,3 +1,7 @@
 .aside {
     background-color: #FAF7F2;
+    grid-area: aside;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
 }
