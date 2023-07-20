@@ -54,7 +54,7 @@ function App() {
       id: 4,
       stage: 'Update',
       tag: 'Upgrade to Pro',
-      task: 'Basic style file',
+      task: 'Basic style',
       createdAt: 1650532562551,
       dueDate: 1650532562551,
     },
@@ -64,7 +64,7 @@ function App() {
     <div className="app">
       <Aside />
       <Main tasksData={data} usersData={users} />
-      <Header usersData={users}/>
+      <Header usersData={users} tasksData={data} />
       <Footer />
     </div>
   );

@@ -6,11 +6,11 @@ export function Main({tasksData, usersData}) {
     return (
         <main className={style.main} >
             <div className={style.course}>
-                <h3>Course in Progress</h3>
-                <h6>View All</h6>
+                <h2>Course in Progress</h2>
+                <h4>View All</h4>
             </div>
             <Column className={style.column}
-                tasks={tasksData.filter(item => item.stage)}
+                tasks={tasksData.filter(item => item)}
                 users={usersData} />
             
         </main>
