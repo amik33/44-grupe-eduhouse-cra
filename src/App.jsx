@@ -6,6 +6,25 @@ import { Footer } from './components/footer/Footer';
 
 
 function App() {
+
+  const users = [
+    {
+      id: 1,
+      name: 'Petras',
+      img: 'asd123.png',
+    },
+    {
+      id: 2,
+      name: 'Jonas',
+      img: 'asd234.png',
+    },
+    {
+      id: 3,
+      name: 'Antanas',
+      img: 'asd345.png',
+    },
+  ];
+
   const data = [
     {
       id: 1,
@@ -44,8 +63,8 @@ function App() {
   return (
     <div className="app">
       <Aside />
-      <Main data={data} />
-      <Header />
+      <Main tasksData={data} usersData={users} />
+      <Header usersData={users}/>
       <Footer />
     </div>
   );

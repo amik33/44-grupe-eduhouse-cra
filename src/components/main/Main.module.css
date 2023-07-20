@@ -1,33 +1,45 @@
 .main {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: space-between;
+    grid-template-columns:  repeat(4, 1fr);
+    grid-template-rows: 1fr 5fr;
     gap: 3rem;
     padding: 2rem 5rem;
     background-color: #FEFDFB;
+    grid-template-areas: 
+    "course course course course"
+    "column column column column";
+   
 }
 .course {
-    grid-column: span 4;
+    grid-area: course;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.sheets {
-    grid-column: span 4;
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-
-}
 .progress {
-    grid-column: span 4;
     display: flex;
     flex-direction: row;
     gap: 2rem;
-
+}
+.card {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.info {
+    display: flex;
+    gap: 1rem;
+}
+.cardBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .column {
-    display: flex;
-    flex-direction: column;
+    grid-area: column;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }

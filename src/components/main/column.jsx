@@ -1,11 +1,13 @@
 import style from './Main.module.css';
-import { Sheets } from './Sheets';
+import { TaskCard } from './TaskCard';
 
 
-export function Column() {
+export function Column( {tasks} ) {
     return (
         <div className={style.column}>
-            { Sheets.map(sheetsObj => <sheets key={sheetsObj.id} data={sheetsObj} />) }
+            { tasks.map(taskObj => <TaskCard key={taskObj.id} 
+            data={taskObj}
+            user={taskObj} />) }
         </div>
     );
 }
