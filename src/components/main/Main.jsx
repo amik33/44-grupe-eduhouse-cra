@@ -1,7 +1,9 @@
 import style from './Main.module.css';
 import { Column } from './Column';
+import { Bottom } from './bottom/Bottom';
 
-export function Main({tasksData, usersData}) {
+
+export function Main( {tasksData, usersData, mentorsData} ) {
  
     return (
         <main className={style.main} >
@@ -12,7 +14,8 @@ export function Main({tasksData, usersData}) {
             <Column className={style.column}
                 tasks={tasksData.filter(item => item)}
                 users={usersData} />
-            
+            <Bottom className={style.bottom}
+                mentors={mentorsData.filter(item => item.name === 'mentors')} />
         </main>
     );
 }

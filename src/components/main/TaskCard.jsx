@@ -16,7 +16,7 @@ export function TaskCard({data:{tag, task, stage}, user}) {
                 <h4>{stage}</h4>
                 <p>{task}</p>
             </div>
-            <footer className={style.bottom}>
+            <footer className={style.btn}>
             <AiOutlineLine/>
             </footer>  
         </article>

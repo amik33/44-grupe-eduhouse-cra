@@ -2,7 +2,7 @@ import './App.css';
 import { Aside } from './components/aside/Aside';
 import { Main } from './components/main/Main';
 import { Header } from './components/header/Header';
-import { Footer } from './components/footer/Footer';
+
 
 
 function App() {
@@ -59,15 +59,51 @@ function App() {
       dueDate: 1650532562551,
     },
   ];
+  
+   const mentors = [
+    {
+      userId: 1,
+      name: 'mentors',
+      username: 'Shine Smith',
+      course: 'UI/UX Desinger',
+      stats: '20 course',
+      follower: '1200',
+    },
+    {
+      userId: 2,
+      name: 'mentors',
+      username: 'Mikel',
+      course: 'Marketer',
+      stats: '25 course',
+      follower: '1000',
+    },
+    {
+      userId: 3,
+      name: 'mentors',
+      username: 'Tohid Golokar',
+      course: 'Androied Developer',
+      stats: '29 course',
+      follower: '1900',
+    },
+    {
+      userId: 4,
+      name: 'mentors',
+      username: 'Md Sakib',
+      course: 'Frontend Developer',
+      stats: '40 course',
+      follower: '2900',
+    },
+  ];
 
   return (
     <div className="app">
       <Aside />
-      <Main tasksData={data} usersData={users} />
-      <Header usersData={users} tasksData={data} />
-      <Footer />
+      <Header />
+      <Main tasksData={data} usersData={users} mentorsData={mentors} />
     </div>
   );
+
+ 
 
 }
 
