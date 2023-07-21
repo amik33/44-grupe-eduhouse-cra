@@ -12,8 +12,10 @@ export function Bottom ( {mentors} ) {
                 mentors={mentorsObj}  />) }
             </div>
             <div className={style.bottomRight}>
-                <h3>Top Mentors</h3>
-                <p>View All</p>
+                <div className={style.top}>
+                    <h3>Top Mentors</h3>
+                    <p>View All</p>
+                </div>
                 { mentors.map(mentorsObj => <TableRight key={mentorsObj.Id}
                  mentors={mentorsObj}  />) }
             </div>
