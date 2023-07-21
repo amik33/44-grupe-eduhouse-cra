@@ -1,6 +1,6 @@
 .app {
     display: grid;
-    grid-template-columns: 10rem 1fr;
+    grid-template-columns: 20rem 1fr;
     grid-template-areas: 
         'aside header'
         'aside main'

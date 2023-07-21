@@ -10,7 +10,7 @@ export function TableRight ({mentors: {username, course, stats, follower}}) {
             <p>{course}</p>
             <p>{stats}</p>
             <p>{follower}</p>
-            <button>Foolow</button>
+            <button className={style.button}>Foolow</button>
         </div>
     );
 }

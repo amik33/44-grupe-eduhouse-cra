@@ -1,55 +1,80 @@
-/* .bottom {
+.bottom {
+    background-color:green;
+    /* display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    gap: 3rem;
+    padding: 2rem 2rem;
+    grid-template-areas: 
+    'bottomLeft bottomRight bottomRight bottomRight'; */
+}
+.mentors {
     display: grid;
-    grid-template-columns:  30rem 1fr;
+    grid-template-columns: repeat(4, 1fr);
     gap: 3rem;
     padding: 2rem 2rem;
     background-color:blue;
-    grid-template-areas: 
-    'bottomLeft bottomRight';
-} */
+    grid-area: mentors;
+    border-radius: 1rem;
+}
 
 .tableRight {
     background-color: aqua;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 3rem;
-    padding: 2rem 2rem;
-     grid-area: tableLeft;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem 3rem;
+    border-radius: 1rem;
+  
 }
 
 .tableLeft {
     background-color: bisque;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 3rem;
-    padding: 2rem 2rem;
-     grid-area: tableRight;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.3rem 3rem;
+    border-radius: 1rem;
+   
 }
-/* .bottomLeft {
-    background-color: blueviolet;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 3rem;
-    padding: 2rem 2rem;
-     grid-area: tableLeft;
-} */
+.bottomLeft {
+    background-color: red;
+    gap: 1rem 1rem;
+    /* grid-area: mentors; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+  
+}
 
-/* .bottomRight {
+.bottomRight {
     background-color: brown;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 3rem;
-    padding: 2rem 2rem;
-     grid-area: tableRight;
-} */
-
-.mentors {
-    display: grid;
-    grid-template-columns: 1fr 30rem;
-    gap: 3rem;
-    padding: 2rem 2rem;
-    background-color:blue;
-    grid-template-areas: 
-    'bottomLeft bottomRight'
-    'bottomLeft bottomRight';
+    gap: 1rem 1rem;
+    /* grid-area: mentors; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
 }
+.button {
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    background-color: #F8B310;
+    color: black;
+    line-height: 0.2rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #F8B310;
+    user-select: none;
+}
+.button:hover {
+    background-color: #fff;
+    color:black;
+}
+
+

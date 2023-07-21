@@ -1,13 +1,14 @@
 .main {
     display: grid;
     grid-template-columns:  repeat(4, 1fr);
-    grid-template-rows: 1fr 5fr;
+    /* grid-template-rows: 1fr 1fr 5fr; */
     gap: 3rem;
     padding: 2rem 2rem;
     background-color: #FEFDFB;
     grid-template-areas: 
     "course course course course"
-    "column column column column";
+    "column column column column"
+    'mentors mentors mentors mentors';
    
 }
 .course {
