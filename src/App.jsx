@@ -23,11 +23,27 @@ function App() {
       name: 'Antanas',
       img: 'three.png',
     },
+    {
+      id: 4,
+      name: 'Maryte',
+      img: 'first.png',
+    },
+    {
+      id: 5,
+      name: 'Janina',
+      img: 'two.png',
+    },
+    {
+      id: 6,
+      name: 'Antanina',
+      img: 'three.png',
+    },
   ];
 
   const data = [
     {
-      id: 4,
+      id: 7,
+      name:'stats',
       img: 'first.png',
       stage: 'Learn App',
       tag: 'App Design',
@@ -36,7 +52,8 @@ function App() {
       dueDate: 1650532562551,
     },
     {
-      id: 5,
+      id: 8,
+      name:'stats',
       img: 'two.png',
       stage: 'Learn Web',
       tag: 'Web Design',
@@ -45,7 +62,8 @@ function App() {
       dueDate: 1650532562551,
     },
     {
-      id: 6,
+      id: 9,
+      name:'stats',
       img: 'three.png',
       stage: 'Learn Typography',
       tag: 'Dashboard',
@@ -54,7 +72,28 @@ function App() {
       dueDate: 1650532562551,
     },
     {
-      id: 7,
+      id: 10,
+      name:'stats',
+      img: 'first.png',
+      stage: 'Update',
+      tag: 'Upgrade to Pro',
+      task: 'Basic style',
+      createdAt: 1650532562551,
+      dueDate: 1650532562551,
+    },
+    {
+      id: 11,
+      name:'stat',
+      img: 'three.png',
+      stage: 'Learn Typography',
+      tag: 'Dashboard',
+      task: '404 page',
+      createdAt: 1650532562551,
+      dueDate: 1650532562551,
+    },
+    {
+      id: 12,
+      name:'stat',
       img: 'first.png',
       stage: 'Update',
       tag: 'Upgrade to Pro',
@@ -66,7 +105,7 @@ function App() {
   
    const mentors = [
     {
-      Id: 8,
+      Id: 13,
       img: 'Smith.png',
       icon: 'UI.png',
       name: 'mentors',
@@ -76,7 +115,7 @@ function App() {
       follower: '1200',
     },
     {
-      Id: 9,
+      Id: 14,
       name: 'mentors',
       img: 'Mikel.png',
       icon:'Marketing.png',
@@ -86,7 +125,7 @@ function App() {
       follower: '1000',
     },
     {
-      Id: 10,
+      Id: 15,
       name: 'mentors',
       img: 'Tohid.png',
       icon:'Development.png',
@@ -96,7 +135,7 @@ function App() {
       follower: '1900',
     },
     {
-      Id: 11,
+      Id: 16,
       name: 'mentors',
       img: 'Md.png',
       icon:'Development.png',
@@ -106,7 +145,7 @@ function App() {
       follower: '2900',
     },
     {
-      Id: 12,
+      Id: 17,
       name: 'pop',
       img: 'Md.png',
       icon:'Business.png',
@@ -120,7 +159,7 @@ function App() {
 
   const popular = [
     {
-      Id: 13,
+      Id: 18,
       name: 'popular',
       img: 'Md.png',
       icon:'Business.png',
@@ -130,7 +169,7 @@ function App() {
       follower: '900',
     },
     {
-      Id: 14,
+      Id: 19,
       img: 'Smith.png',
       icon: 'UI.png',
       name: 'popular',
@@ -140,7 +179,7 @@ function App() {
       follower: '1000',
     },
     {
-      Id: 15,
+      Id: 20,
       name: 'popular',
       img: 'Mikel.png',
       icon:'Marketing.png',
@@ -150,7 +189,7 @@ function App() {
       follower: '1300',
     },
     {
-      Id: 16,
+      Id: 21,
       name: 'popular',
       img: 'Tohid.png',
       icon:'Development.png',
@@ -160,7 +199,7 @@ function App() {
       follower: '1700',
     },
     {
-      Id: 17,
+      Id: 22,
       name: 'pop',
       img: 'Mikel.png',
       icon:'Marketing.png',
@@ -170,7 +209,7 @@ function App() {
       follower: '2100',
     },
     {
-      Id: 18,
+      Id: 23,
       name: 'pop',
       img: 'Tohid.png',
       icon:'Development.png',

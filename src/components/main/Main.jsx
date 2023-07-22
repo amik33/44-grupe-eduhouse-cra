@@ -12,11 +12,12 @@ export function Main( {tasksData, usersData, mentorsData, popularData} ) {
                 <h4>View All</h4>
             </div>
             <Column 
-                tasks={tasksData.filter(item => item)}
+                tasks={tasksData.filter(item => item.name === 'stats')}
                 users={usersData} />
             <Bottom 
                 popular={popularData.filter(item => item.name === 'popular')}
-                mentors={mentorsData.filter(item => item.name === 'mentors')} />
+                mentors={mentorsData.filter(item => item.name === 'mentors')}
+                users={usersData} />
         </main>
     );
 }

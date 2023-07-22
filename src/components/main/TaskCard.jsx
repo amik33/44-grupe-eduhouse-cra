@@ -1,6 +1,6 @@
 import style from './Main.module.css';
 import { AiOutlineLine } from 'react-icons/ai';
-// import  first   from '../../images/first.png';
+
 
 export function TaskCard({data:{tag, task, stage}, user}) {
     const date ='Start Dec, 15, 2020';
