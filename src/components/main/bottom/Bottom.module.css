@@ -1,88 +1,71 @@
-.bottom {
-    background-color:green;
-    /* display: grid;
-    grid-template-columns:  repeat(4, 1fr);
-    gap: 3rem;
-    padding: 2rem 2rem;
-    grid-template-areas: 
-    'bottomLeft bottomRight bottomRight bottomRight'; */
-}
 .mentors {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 3rem;
-    padding: 2rem 2rem;
     grid-area: mentors;
-    border-radius: 1rem;
-}
-
-.tableRight {
-    background-color: aqua;
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    gap: 3rem 3rem;
+    border-radius: 1rem;
+    gap: 2rem;
+}
+.bottomRight {
+    background-color: #E6F5FA;
+    display: grid;
+    grid-column: span 3;
     border-radius: 1rem;
     padding: 1rem 1rem;
-  
-}
-
-.tableLeft {
-    background-color: bisque;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 0.3rem 3rem;
-    border-radius: 1rem;
-    padding: 1rem 1rem;
-   
+    gap: 1rem;
 }
 .bottomLeft {
-    background-color: red;
-    gap: 0.5rem 0.5rem;
-    /* grid-area: mentors; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1rem;
+    background-color:#EEFCEF;
+    display: grid;
     border-radius: 1rem;
-  
+    gap: 1rem;
+    padding: 1rem 1rem;
+    align-items: center;
 }
-
-.bottomRight {
-    background-color: brown;
-    gap: 0.5rem 0.5rem;
-    /* grid-area: mentors; */
+.tableRight {
+    background-color: #ffffff;
     display: flex;
-    flex-direction: column;
+    border-radius: 1rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.tableLeft {
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 1rem;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1rem;
-    border-radius: 1rem;
+    padding: 1rem 2rem;
+    gap: 1rem;
 }
 .top {
-    grid-area: mentors;
     display: flex;
     justify-content: space-between;
+    padding: 1rem 1rem;
     align-items: center;
-    gap: 2rem 10rem;
 }
-
+.popular {
+    padding: 1rem 1rem;
+}
+.title {
+   display: flex;
+   flex-direction: column;
+   gap: 0.3rem;
+}
 .button {
     display: inline-block;
-    padding: 0.6rem 1rem;
-    background-color: #F8B310;
+    padding: 0.7rem 2rem;
+    background-color: #f3c861;
     color: black;
     line-height: 0.2rem;
     text-decoration: none;
     border-radius: 0.5rem;
-    border: 0.1rem solid #F8B310;
-    user-select: none;
+    border: 0.1rem solid #f3c861;
 }
 .button:hover {
-    background-color: #fff;
+    background-color: #FFF3D9;
     color:black;
 }
 

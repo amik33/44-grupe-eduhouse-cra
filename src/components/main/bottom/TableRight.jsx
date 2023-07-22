@@ -7,7 +7,7 @@ export function TableRight ({mentors: {username, course, stats, follower}}) {
     return (
         <div className={style.tableRight}>
             <img src="#" alt="/" />
-            <h4>{username}</h4>
+            <h3>{username}</h3>
             <p>{course}</p>
             <p>{stats}</p>
             <p>{follower}</p>

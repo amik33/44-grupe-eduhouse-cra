@@ -11,10 +11,10 @@ export function Main( {tasksData, usersData, mentorsData} ) {
                 <h2>Course in Progress</h2>
                 <h4>View All</h4>
             </div>
-            <Column className={style.column}
+            <Column 
                 tasks={tasksData.filter(item => item)}
                 users={usersData} />
-            <Bottom className={style.bottom}
+            <Bottom 
                 mentors={mentorsData.filter(item => item.name === 'mentors')} />
         </main>
     );

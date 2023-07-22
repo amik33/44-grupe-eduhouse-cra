@@ -1,13 +1,12 @@
 .main {
     display: grid;
     grid-template-columns:  repeat(4, 1fr);
-    /* grid-template-rows: 1fr 1fr 5fr; */
-    gap: 3rem;
+    gap: 2rem;
     padding: 2rem 2rem;
     background-color: #FEFDFB;
     grid-template-areas: 
-    "course course course course"
-    "column column column column"
+    'course course course course'
+    'column column column column'
     'mentors mentors mentors mentors';
    
 }
@@ -22,13 +21,13 @@
 .progress {
     display: flex;
     flex-direction: row;
-    gap: 0.5rem 3rem;
+    gap: 0.5rem 15rem;
 }
 .card {
     display: grid;
     gap: 1rem;
     padding: 1rem;
-    background-color: #ECFBFF;
+    background-color: #FFF2EC;
     border-radius: 1rem;
 }
 .info {
@@ -45,5 +44,5 @@
     grid-area: column;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 2rem;
 }

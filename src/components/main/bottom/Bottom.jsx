@@ -7,7 +7,9 @@ export function Bottom ( {mentors} ) {
     return (
         <div className={style.mentors}>
             <div className={style.bottomLeft}>
-                <h3>Popular Categories</h3>
+                <div className={style.popular}>
+                    <h3>Popular Categories</h3>
+                </div>
                 { mentors.map(mentorsObj => <TableLeft key={mentorsObj.Id}
                 mentors={mentorsObj}  />) }
             </div>
