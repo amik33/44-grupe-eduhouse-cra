@@ -11,23 +11,24 @@ function App() {
     {
       id: 1,
       name: 'Petras',
-      img: 'asd123.png',
+      img: 'first.png',
     },
     {
       id: 2,
       name: 'Jonas',
-      img: 'asd234.png',
+      img: 'two.png',
     },
     {
       id: 3,
       name: 'Antanas',
-      img: 'asd345.png',
+      img: 'three.png',
     },
   ];
 
   const data = [
     {
       id: 1,
+      img: 'first.png',
       stage: 'Learn App',
       tag: 'App Design',
       task: 'Home page',
@@ -36,6 +37,7 @@ function App() {
     },
     {
       id: 2,
+      img: 'two.png',
       stage: 'Learn Web',
       tag: 'Web Design',
       task: 'Responsive design',
@@ -44,6 +46,7 @@ function App() {
     },
     {
       id: 3,
+      img: 'three.png',
       stage: 'Learn Typography',
       tag: 'Dashboard',
       task: '404 page',
@@ -52,6 +55,7 @@ function App() {
     },
     {
       id: 4,
+      img: 'first.png',
       stage: 'Update',
       tag: 'Upgrade to Pro',
       task: 'Basic style',

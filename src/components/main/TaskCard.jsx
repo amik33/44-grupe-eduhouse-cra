@@ -1,15 +1,19 @@
 import style from './Main.module.css';
 import { AiOutlineLine } from 'react-icons/ai';
-import  first   from '../../images/first.png';
+// import  first   from '../../images/first.png';
 
 export function TaskCard({data:{tag, task, stage}, user}) {
-    const date ='Dec, 15, 2020';
+    const date ='Start Dec, 15, 2020';
+    let img = <img src={`./img/users/${user.img}`} alt='' />;
+    if (typeof user.img !== 'string') {
+        img = user.img;
+    }
   
     return (
         <article className={style.card} >
             <header className={style.progress}>
-                <p>Start  {date}</p>
-                <img src={first} alt="/" />
+                <p>{date}</p>
+                {img}
             </header>
             <div className={style.info}>
                 <h2>{tag}</h2>
