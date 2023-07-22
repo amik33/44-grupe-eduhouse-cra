@@ -27,7 +27,7 @@ function App() {
 
   const data = [
     {
-      id: 1,
+      id: 4,
       img: 'first.png',
       stage: 'Learn App',
       tag: 'App Design',
@@ -36,7 +36,7 @@ function App() {
       dueDate: 1650532562551,
     },
     {
-      id: 2,
+      id: 5,
       img: 'two.png',
       stage: 'Learn Web',
       tag: 'Web Design',
@@ -45,7 +45,7 @@ function App() {
       dueDate: 1650532562551,
     },
     {
-      id: 3,
+      id: 6,
       img: 'three.png',
       stage: 'Learn Typography',
       tag: 'Dashboard',
@@ -54,7 +54,7 @@ function App() {
       dueDate: 1650532562551,
     },
     {
-      id: 4,
+      id: 7,
       img: 'first.png',
       stage: 'Update',
       tag: 'Upgrade to Pro',
@@ -66,7 +66,9 @@ function App() {
   
    const mentors = [
     {
-      userId: 1,
+      Id: 8,
+      img: 'Smith.png',
+      icon: 'UI.png',
       name: 'mentors',
       username: 'Shine Smith',
       course: 'UI/UX Desinger',
@@ -74,28 +76,108 @@ function App() {
       follower: '1200',
     },
     {
-      userId: 2,
+      Id: 9,
       name: 'mentors',
+      img: 'Mikel.png',
+      icon:'Marketing.png',
       username: 'Mikel',
       course: 'Marketer',
       stats: '25 course',
       follower: '1000',
     },
     {
-      userId: 3,
+      Id: 10,
       name: 'mentors',
+      img: 'Tohid.png',
+      icon:'Development.png',
       username: 'Tohid Golokar',
       course: 'Androied Developer',
       stats: '29 course',
       follower: '1900',
     },
     {
-      userId: 4,
+      Id: 11,
       name: 'mentors',
+      img: 'Md.png',
+      icon:'Development.png',
       username: 'Md Sakib',
       course: 'Frontend Developer',
       stats: '40 course',
       follower: '2900',
+    },
+    {
+      Id: 12,
+      name: 'pop',
+      img: 'Md.png',
+      icon:'Business.png',
+      username: 'Md Sakib',
+      course: 'Business',
+      stats: '35 course',
+      follower: '900',
+    },
+    
+  ];
+
+  const popular = [
+    {
+      Id: 13,
+      name: 'popular',
+      img: 'Md.png',
+      icon:'Business.png',
+      username: 'Md Sakib',
+      categories: 'Business',
+      stats: '35 course',
+      follower: '900',
+    },
+    {
+      Id: 14,
+      img: 'Smith.png',
+      icon: 'UI.png',
+      name: 'popular',
+      username: 'Shine Smith',
+      categories: 'UI/UX Desing',
+      stats: '56 course',
+      follower: '1000',
+    },
+    {
+      Id: 15,
+      name: 'popular',
+      img: 'Mikel.png',
+      icon:'Marketing.png',
+      username: 'Mikel',
+      categories: 'Marketing',
+      stats: '51 course',
+      follower: '1300',
+    },
+    {
+      Id: 16,
+      name: 'popular',
+      img: 'Tohid.png',
+      icon:'Development.png',
+      username: 'Tohid Golokar',
+      categories: 'Development',
+      stats: '19 course',
+      follower: '1700',
+    },
+    {
+      Id: 17,
+      name: 'pop',
+      img: 'Mikel.png',
+      icon:'Marketing.png',
+      username: 'Mikel',
+      categories: 'Marketing',
+      stats: '10 course',
+      follower: '2100',
+    },
+    {
+      Id: 18,
+      name: 'pop',
+      img: 'Tohid.png',
+      icon:'Development.png',
+      username: 'Tohid Golokar',
+      categories: 'Development',
+      stats: '11 course',
+      follower: '2700',
     },
   ];
 
@@ -103,7 +185,10 @@ function App() {
     <div className="app">
       <Aside />
       <Header />
-      <Main tasksData={data} usersData={users} mentorsData={mentors} />
+      <Main tasksData={data} 
+      usersData={users} 
+      mentorsData={mentors}
+      popularData={popular}/>
     </div>
   );
 

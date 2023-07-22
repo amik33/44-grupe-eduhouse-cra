@@ -3,7 +3,7 @@ import { Column } from './Column';
 import { Bottom } from './bottom/Bottom';
 
 
-export function Main( {tasksData, usersData, mentorsData} ) {
+export function Main( {tasksData, usersData, mentorsData, popularData} ) {
  
     return (
         <main className={style.main} >
@@ -15,6 +15,7 @@ export function Main( {tasksData, usersData, mentorsData} ) {
                 tasks={tasksData.filter(item => item)}
                 users={usersData} />
             <Bottom 
+                popular={popularData.filter(item => item.name === 'popular')}
                 mentors={mentorsData.filter(item => item.name === 'mentors')} />
         </main>
     );

@@ -3,15 +3,16 @@ import { TableLeft } from './TableLeft';
 import { TableRight } from './TableRight';
 
 
-export function Bottom ( {mentors} ) {
+export function Bottom ( {mentors, popular}) {
+   
     return (
         <div className={style.mentors}>
             <div className={style.bottomLeft}>
                 <div className={style.popular}>
                     <h3>Popular Categories</h3>
                 </div>
-                { mentors.map(mentorsObj => <TableLeft key={mentorsObj.Id}
-                mentors={mentorsObj}  />) }
+                { popular.map(popularObj => <TableLeft key={popularObj.Id}
+                popular={popularObj}  />) }
             </div>
             <div className={style.bottomRight}>
                 <div className={style.top}>
