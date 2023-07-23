@@ -1,0 +1,20 @@
+.formDone {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.button {
+    display: inline-block;
+    padding: 0.7rem 2rem;
+    background-color: #f3c861;
+    color: black;
+    line-height: 0.2rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #f3c861;
+}
+.button:hover {
+    background-color: #FFF3D9;
+    color:black;
+}

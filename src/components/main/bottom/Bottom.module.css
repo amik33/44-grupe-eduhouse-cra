@@ -69,4 +69,11 @@
     color:black;
 }
 
+.addTask {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.2rem 1rem;
+}
+
 

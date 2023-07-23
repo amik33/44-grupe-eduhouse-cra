@@ -224,10 +224,7 @@ function App() {
     <div className="app">
       <Aside />
       <Header />
-      <Main tasksData={data} 
-      usersData={users} 
-      mentorsData={mentors}
-      popularData={popular}/>
+      <Main tasksData={data} usersData={users} mentorsData={mentors} popularData={popular}/>
     </div>
   );
 

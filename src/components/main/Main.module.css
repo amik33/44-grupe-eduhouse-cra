@@ -8,7 +8,6 @@
     'course course course course'
     'column column column column'
     'mentors mentors mentors mentors';
-   
 }
 .course {
     grid-area: course;
@@ -16,29 +15,27 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.2rem 1rem;
- 
 }
 .progress {
     display: flex;
-    flex-direction: row;
-    gap: 0.5rem 12rem;
+    justify-content: space-between;
 }
 .card {
     display: grid;
     gap: 1rem;
-    padding: 1rem;
+    padding: 1rem 1rem;
     background-color: #FFF2EC;
     border-radius: 1rem;
 }
 .info {
-    gap: 0.5rem;
+    gap: 1.5rem;
     display: grid;
-   
 }
 .btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem 0;
 }
 .column {
     grid-area: column;
