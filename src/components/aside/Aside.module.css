@@ -25,12 +25,14 @@
     justify-content:flex-start;
     padding: 1rem;
     gap: 1.5rem;
+    font-size: 1.1rem;
 }
 .settingBottom {
     display: flex;
     justify-content:flex-start;
     padding: 1rem;
     gap: 1.5rem;
+    font-size: 1.1rem;
 }
 .topMeniuColor {
     color: #f3c861;
@@ -38,4 +40,5 @@
     justify-content:flex-start;
     padding: 1rem;
     gap: 1.5rem;
+    font-size: 1.1rem;
 }

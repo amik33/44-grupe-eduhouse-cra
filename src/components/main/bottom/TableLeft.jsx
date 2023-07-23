@@ -1,7 +1,7 @@
 import style from './Bottom.module.css';
 
 
-export function TableLeft ( {popular: {categories, stats}, user} ) {
+export function TableLeft ( {popular: {categories, stats, icon}} ) {
 
     // let img = <img src={`./img/users/${user.img}`} alt='' />;
     // if (typeof user.img !== 'string') {
@@ -15,7 +15,7 @@ export function TableLeft ( {popular: {categories, stats}, user} ) {
                 <p>{stats}</p>
             </div>
             {/* {img} */}
-            <img src="#" alt="/" />
+            <img src={`./img/popular/${icon}`} alt="/" />
         </div>
     );
 }
