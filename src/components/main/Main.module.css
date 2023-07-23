@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns:  repeat(4, 1fr);
     gap: 2rem;
-    padding: 2rem 2rem;
+    padding: 1rem 2rem;
     background-color: #FEFDFB;
     grid-template-areas: 
     'course course course course'
@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.2rem 1rem;
+    padding: 0 1rem;
 }
 .progress {
     display: flex;
