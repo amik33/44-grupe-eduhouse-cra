@@ -2,6 +2,40 @@
     background-color: #FAF7F2;
     grid-area: aside;
     display: flex;
-    justify-content: space-between;
-    padding: 1rem 3rem;
+    flex-direction: column;
+    gap: 3rem;
+    align-items:flex-start;
+    padding: 1.5rem 3rem;
+}
+.asideTitle {
+    font-size: x-large;
+}
+.meniu {
+    color: #B4B4B2;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+.setting {
+    color: #B4B4B2;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+}
+.topMeniu {
+    display: flex;
+    justify-content:flex-start;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+.settingBottom {
+    display: flex;
+    justify-content:flex-start;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+.topMeniuColor {
+    color: #f3c861;
+    display: flex;
+    justify-content:flex-start;
+    padding: 1rem;
+    gap: 1.5rem;
 }
